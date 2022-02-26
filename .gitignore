@@ -1,0 +1,38 @@
+.DS_Store
+node_modules
+*.icloud
+/dist
+*dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log`*
+yarn-debug.log*
+yarn-error.log*
+coverage
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+lerna-debug.log
+
+server/docs/
+server/www/logs
+server/www/run
+server/www/.env
+server/base/.github/
+apidoc.json
+.cache
+
+.history
+.vscode-upload.json
+
+scripts/ram-tree.json
+
+config

@@ -1,0 +1,32 @@
+{
+  "name": "wechat-rebate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fgoll/wechat-rebate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fgoll/wechat-rebate/issues"
+  },
+  "homepage": "https://github.com/fgoll/wechat-rebate#readme",
+  "dependencies": {
+    "koa":  "^2.13.4",
+    "koa-router": "^10.1.1",
+    "sha1": "^1.1.1",
+    "sequelize": "^6.17.0",
+    "request": "^2.88.2",
+    "moment-timezone": "^0.5.31",
+    "koa-xml-body": "^2.2.0",
+    "mime": "^3.0.0",
+    "mysql2": "^2.3.3",
+    "ws": "^8.5.0"
+  }
+}
